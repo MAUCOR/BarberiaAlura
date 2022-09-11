@@ -92,7 +92,7 @@ nav a:hover{
 
 footer{
     text-align: center;
-    background: url(../banner/bg.jpg);
+    background: url(../HTML\ y\ CSS\ PT1/banner/bg.jpg);
     padding: 40px;
 }
 
@@ -110,16 +110,21 @@ form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    text-align: center;
 }
 .input-padron{
     display: block;
-    margin: 0 0 20px;
+    margin: 15px auto;
     padding:  10px 10px;
     width: 50%;
 }
 
 .checkbox{
     margin: 20px 0;
+}
+
+#comboBox{
+    margin-left:710px;
 }
 
 .enviar{
@@ -133,6 +138,7 @@ form label, form legend{
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
+    margin-left: 440px;
 }
 
 .enviar:hover{
@@ -141,7 +147,7 @@ form label, form legend{
 }
 
 table{
-    margin: 40px 40px;
+    margin: 40px auto;
 }
 
 thead{
@@ -269,3 +275,6 @@ td, th{
         width: 100%;
     }
 }
+
+
+
